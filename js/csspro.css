@@ -1,0 +1,145 @@
+.container-1{
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.flex-box-container-1, .flex-box-game-pic-color{
+    display: flex;  
+    border:1px solid black;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.flex-box-container-1 div{
+    
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-2{
+    border: 2px solid black;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+
+}
+.btn-primary1{
+    background-color:greenyellow;
+}
+.flex-box-container-3{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.flex-box-container-3 img{
+    border:1px solid greenyellow;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+.container-3{
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+}
+.container-4{
+    border: 2px solid black;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}    
+.flex-box-rps{
+    border: 3px solid black;
+    width: 75%;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+    justify-content: space-around ;
+    
+
+}
+.flex-box-rps-div{
+    border: 3px solid black;
+    width: 75%;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+    justify-content: space-around ;
+    
+
+}
+.container-5{
+    border: 2px solid black;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.container-6{
+    border:1px solid grey ;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+   
+.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3{
+    display: flex;  
+    border:1px solid black;
+    padding: 10px;
+   
+    justify-content: center;/*Align the flex items at the center of the container*/
+    
+
+
+}
+.flex-blackjack-row-1,.flex-blackjack-row-2{
+    background: url("https://mk0gamesnetentcxytko.kinstacdn.com/wp-content/uploads/2018/09/blackjack_background.jpg") center;
+    color: white;
+}
+.flex-blackjack-row-1 div{
+    padding: 10px;
+    border: 1px  solid black;
+    height:500px;
+    flex: 1;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+
+}
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-2 div{
+    border: 2px solid black;
+    padding: 10px;
+    
+
+}
+table,th,td{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
